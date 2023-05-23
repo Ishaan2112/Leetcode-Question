@@ -11,7 +11,7 @@ public:
             num=num/10;
             if(sum>9 && num==0){
                 num=sum;
-                sum=0;
+                sum=0;  
             }
         }  
         return sum;
